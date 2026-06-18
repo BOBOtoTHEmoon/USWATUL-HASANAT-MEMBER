@@ -44,10 +44,10 @@ export default async function MemberPage({
         {/* Card */}
         <div className="bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-sm">
           {/* Green header */}
-          <div className="bg-gradient-to-br from-green-700 via-green-600 to-green-500 px-6 py-6">
+          <div className="bg-gradient-to-br from-indigo-900 via-indigo-800 to-indigo-700 px-6 py-6">
             <div className="flex items-center gap-3">
-              <div className="w-11 h-11 rounded-xl bg-white/20 flex items-center justify-center text-white text-lg">
-                ☪
+              <div className="w-11 h-11 rounded-xl bg-white/20 overflow-hidden flex items-center justify-center p-1">
+                <img src="/logo.png" alt="Arikoserere" className="w-full h-full object-contain" />
               </div>
               <div>
                 <h1 className="text-white font-semibold text-lg">

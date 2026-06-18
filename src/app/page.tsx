@@ -453,7 +453,9 @@ export default function AdminPage() {
   return (
     <main className="min-h-screen bg-gray-50 px-4 py-6 max-w-2xl mx-auto">
       <div className="flex items-center gap-3 mb-6">
-        <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-green-700 to-green-500 flex items-center justify-center text-white text-lg">☪</div>
+        <div className="w-10 h-10 rounded-xl overflow-hidden flex items-center justify-center bg-white border border-gray-100">
+          <img src="/logo.png" alt="Arikoserere" className="w-full h-full object-contain" />
+        </div>
         <div>
           <h1 className="text-lg font-semibold text-gray-900">{SOCIETY}</h1>
           <p className="text-xs text-gray-400">Admin · {members.length} members</p>
